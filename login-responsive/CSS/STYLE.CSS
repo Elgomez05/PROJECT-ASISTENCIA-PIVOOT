@@ -1,0 +1,137 @@
+body{
+    background-image: url("/IMAGENES/fondologin.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    background-position: 0px 0px;
+    background: linear-gradient(90deg);
+    }
+
+body{
+    height: 20em;
+    font-family: 'poppins', sans-serif;
+    background-position: ;
+}
+
+.container{
+    padding-top: 30PX;
+    padding-left: 200px;
+    padding-right: 3PX;
+    border:  rgb(251, 248, 248);
+    display: flex;
+    
+    
+
+    
+}
+.imagen{
+    height: 620px;
+    width: 45%;
+    border: 2px solid rgb(23, 28, 22);
+    
+}
+.social-login{
+    width: 27em;
+    padding-left: 40px;
+    background-color: rgb(252, 252, 250);
+    justify-content: center;
+    border: 2px solid rgb(41, 244, 23);
+    
+}
+
+.icono{
+    height: 50px;
+    width: 50px;
+    padding-left: 110px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.input-container{
+    height: 25em;
+    width: 388px;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid rgb(54, 54, 132);
+}
+.p{
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.title{
+    height: 60px;
+    width: 386px;
+    padding-top: 1vh;
+    align-items: center;
+    text-align: calc(icono);
+    border: 2px solid rgb(90, 62, 184);
+    display: flex;
+}
+.input, .btn {
+    width: 100%;
+    height: 45px;
+    border: 5px;
+
+}
+.input{
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.input:hover {
+    border: 2px solid var(--botton-bg);
+    
+}
+.ingrese{
+    width:388px;
+    height: 45px;
+    justify-content: space-around;
+    text-align: center;
+    border: 20px;
+    border-radius: 15px;
+    background-color: #F7D00B;
+    letter-spacing: 1px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid var(--botton-bg);
+    
+    
+    
+}
+.input, .ingrese{
+    border-radius: 15px;
+    
+}
+
+.class{
+    padding-top: 10px;
+    padding-left: 174px;
+    color: var(--botton-bg);
+    
+}
+
+.polip{
+    
+    padding-top: 10%;
+    color: var(--botton-bg);
+}
+
+@media (max-width: 600px){
+    .container, .imagen, .social-login{
+        background-color: rgb(44, 3, 3);
+    }
+}
+@media (max-width: px){
+
+}
