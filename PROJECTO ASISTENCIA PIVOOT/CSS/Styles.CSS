@@ -1,0 +1,82 @@
+
+body{
+    background-image: url("/bg_hero_1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment:fixed;
+    background-position: 3px;
+    background: linear-gradient(90deg);
+      
+    
+}
+.body{
+    height: 10px;
+    font-family: 'poppins', sans-serif;
+    background-image: linear-gradient(90deg);
+}
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1px; 
+    display: flex;
+    border: 2px solid rgb(16, 164, 63);
+}
+
+.logo1{
+    width:8em;
+    padding-top: 0px;
+
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin: 30px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn-accion{
+    background: #3B3737;
+    color: #FAF7F7;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.img{
+    height: 446px;
+    width: 85%;
+    margin: 120px;
+    border: 2px solid rgb(26, 37, 21);
+    padding-left: 4em;
+    padding-top: 51px;
+    
+    
+}
+.info{
+    width: 81%;
+    height: 75vh;
+    padding-top: 15px;
+    padding-right: 151px;
+    padding-left: 100px;
+    display: flex;
+    border: 2px solid rgb(208, 52, 52);
+    align-items: center;
+    
+}
+.container, .info{
+    padding-left: 100px;
+    text-transform:;
+    position:;
+    
+}
+.info-adm, .coñote{
+    text-align: center;
+    align-items: center;
+    
+}
